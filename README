@@ -1,0 +1,16 @@
+[YouAgent]
+A special HTTP proxy server aims to improve the network quality that users can have a better experience while 
+watching videos on YouTube, Facebook etc.
+
+[How It Works]
+It implements a simple DNS client.
+It follows rules from a HOSTS file.
+It is based on a simple HTTP proxy server and modifies requests if necessary to prevert from monitoring contents.
+
+[Project Introduction]
+The project is created to study the RFC2616 and the GFW.
+You can get the source code and program from the project site.
+Take risks to use the program!
+
+[Project Site] 
+http://code.google.com/p/icefox

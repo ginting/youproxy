@@ -1,0 +1,30 @@
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+#include "resource.h"
+
+MAINAPP ICON Logo.ico
+AGENTOFF ICON logo_disabled.ico
+
+#define MANIFEST_ID 1
+MANIFEST_ID 24 manifest
+
+//
+// Menu resources
+//
+LANGUAGE 0, SUBLANG_NEUTRAL
+IDR_MENU1 MENU
+{
+    POPUP "File"
+    {
+	MENUITEM "启用 YouProxy", IDM_1
+	MENUITEM SEPARATOR
+        MENUITEM "项目主页...", IDM_3
+        MENUITEM "最新下载...", IDM_4
+        MENUITEM "提交Bug或者建议...", IDM_5
+	MENUITEM SEPARATOR
+        MENUITEM "退出", IDM_2
+    }
+}
+
+
